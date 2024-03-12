@@ -1,0 +1,65 @@
+
+* {
+    margin: 10px; 
+    box-sizing: border-box;
+    font-family: "cursive";
+    color: black;
+    border-color: rgb(243, 187, 82);
+}
+
+.one-page {
+    border-style: solid;
+}
+
+.one-page .header h1, .one-page .header h2 {
+    text-align: center;
+    border-style: solid;
+    color: black;
+}
+
+.one-page .image-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-page .image-container  .image-border{
+    padding: 3%;
+    padding-right: 0;
+    margin: 5%;
+    border-style: solid;
+    display: none;
+    
+}
+
+.one-page .button-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one-page .button-container .button-A {
+    margin-right: 5%;
+    width: 100px;
+    height: 40px;
+}
+
+.one-page .button-container .button-B {
+    width: 100px;
+    height: 40px;
+}
+
+.one-page .button-container .button-C {
+    width: 100px;
+    height: 40px;
+}
+
+.hiddenbuton{
+    color: bisque;
+    background-color:blue;
+    text-align: center;
+}

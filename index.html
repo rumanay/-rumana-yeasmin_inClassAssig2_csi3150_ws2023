@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABCs of CSS Technology</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="one-page">
+        <div class="header">
+            <h1><span>Welcome to the Interactive ABCs of CSS Technology learning Website</span></h1>
+            <h2><span>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</span></h2>
+        </div>
+
+        <div class="image-container">
+            
+            <div id="image-a" class="image-border">
+                <img src="./assest/css-letter-a.png" alt="image-a"  width="80%">
+                <button onclick="buttonhideA()" class="hiddenbuton">Hide Result</button>
+            </div>
+            <div id="image-b" class="image-border">
+                <img src="./assest/css-letter-b.png" alt="image-b"  width="80%">
+                <button onclick="buttonhideB()" class="hiddenbuton">Hide Result</button>
+            </div>
+            <div id="image-c" class="image-border">
+                <img src="./assest/css-letter-c.png" alt="image-c"  width="80%">
+                <button onclick="buttonhideC()" class="hiddenbuton">Hide Result</button>
+            </div> 
+        </div>
+        <br>
+
+        <div class="button-container">
+            <button class="button-A" onclick="buttonshowA()"> A </button>
+            <button class="button-B" onclick="buttonshowB()"> B </button>
+            <button class="button-C" onclick="buttonshowC()"> C </button>
+        </div>
+        <br>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
